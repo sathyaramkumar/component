@@ -1,0 +1,85 @@
+/* normal button */
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #4361ee;
+    color: white;
+  }
+  /* button-hover */
+  .button-hover {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #4361ee;
+    outline: none;
+    background-color: #4361ee;
+    color: white;
+  }
+  .button-hover:hover {
+    background-color: white;
+    color: #4361ee;
+  }
+  /* link button */
+  .link-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #4361ee;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  /* progress bar */
+  /* .progress-bar {
+    width: 90%;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+  }
+  .progress-bar::after {
+    content: '';
+    width: 400px;
+    height: 10px;
+    color: white;
+    background-color: black;
+  } */
+
+  /* table */
+  .container {
+    width: 600px;
+    margin: auto;
+  }
+  th {
+    padding: 20px 60px;
+  }
+  td {
+    padding: 20px 60px;
+  }
+  tr:nth-child(2) {
+    background-color: whitesmoke;
+  }
+  tr:nth-child(4) {
+    background-color: whitesmoke;
+  }
+  thead {
+    background-color: black;
+    color: white;
+  }
+  thead:hover {
+    background-color: white;
+    color: black;
+  }
+  tr:nth-child(1):hover {
+    background-color: whitesmoke;
+  }
+  tr:nth-child(2):hover {
+    background-color: white;
+  }
+  tr:nth-child(3):hover {
+    background-color: whitesmoke;
+  }
+  tr:nth-child(4):hover {
+    background-color: white;
+  }
